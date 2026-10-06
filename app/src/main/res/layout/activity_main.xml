@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="#101318" android:padding="20dp">
+    <TextView android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Screen Distance" android:textColor="#FFFFFF" android:textSize="28sp" android:textStyle="bold" android:gravity="center" android:layout_marginBottom="8dp"/>
+    <TextView android:id="@+id/instruction" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Keep your face about 35 cm from the phone" android:textColor="#BFC5CC" android:textSize="15sp" android:gravity="center" android:layout_marginBottom="12dp"/>
+    <androidx.camera.view.PreviewView android:id="@+id/preview" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:layout_marginBottom="12dp"/>
+    <TextView android:id="@+id/distance" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="-- cm" android:textColor="#FFFFFF" android:textSize="42sp" android:textStyle="bold" android:gravity="center"/>
+    <TextView android:id="@+id/status" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Starting camera..." android:textColor="#4CAF50" android:textSize="20sp" android:textStyle="bold" android:gravity="center" android:layout_marginTop="4dp"/>
+    <Button android:id="@+id/calibrate" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Calibrate at 35 cm" android:layout_marginTop="14dp"/>
+    <TextView android:id="@+id/hint" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Calibration: place your face at exactly 35 cm, then tap the button." android:textColor="#8F969F" android:textSize="13sp" android:gravity="center" android:layout_marginTop="8dp"/>
+</LinearLayout>
